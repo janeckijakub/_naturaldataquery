@@ -106,7 +106,7 @@ def main():
     # Main content area
     if st.session_state.df is not None:
         st.header("Data Preview")
-        st.dataframe(st.session_state.df.head())
+        st.dataframe(st.session_state.df)
     
     if st.session_state.query_processor is not None:
         st.header("Query Data")
